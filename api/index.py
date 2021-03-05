@@ -1,18 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 
 app = FastAPI(root_path="/api")
 
 @app.get("/", tags=["Root"])
 async def plain_api():
   return {
-    "message": "Hello /"
+		"message": "Hello /",
    }
 
 
 @app.get("/api/", tags=["Root"])
 async def plain_api():
   return {
-    "message": "Hello /api/"
+		"message": "Hello /api/",
    }
 
 
@@ -20,7 +20,7 @@ async def plain_api():
 async def serve_my_app(request: Request, req_path: str):
     print(f"path: {req_path}")
     return {
-      "message": "Hello /{path}"
+		"message": "Hello /{path}",
  	}
 
 
@@ -29,5 +29,5 @@ async def serve_my_app(request: Request, req_path: str):
 async def serve_my_app(request: Request, req_path: str):
     print(f"path: {req_path}")
     return {
-      "message": "Hello /api/{path}"
+		"message": "Hello /api/{path}",
  	}
