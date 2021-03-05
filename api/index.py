@@ -1,8 +1,13 @@
-from sanic import Sanic
-from sanic.response import json
+from fastapi import FastAPI
 
-app = Sanic()
+app = FastAPI()
 
-@app.route('/api/hello')
-async def index(request, path=""):
-    return json({'hello': path})
+
+@app.get("/{path}")
+def read_root(path: str):
+    return {"path": path}
+
+
+@app.get("/api/{path}")
+def read_item(path: str, q: Optional[str] = None):
+    return {"path": path}

@@ -16,7 +16,7 @@ function App() {
     <main>
       <h1>Kamyar Ghasemlou</h1>
       <h2>
-        Hi there 👋, welcome to my homepage!
+        Hi there, welcome to my homepage!
       </h2>
       <p>
         Intro.
