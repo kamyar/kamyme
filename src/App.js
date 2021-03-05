@@ -19,7 +19,10 @@ function App() {
         Hi there, welcome to my homepage!
       </h2>
       <p>
-        Intro.
+        I am a Software Engineer currently working @ <a href="https://www.deliveryhero.com/">Delivery Hero</a> in Berlin.
+      </p>
+      <p>
+        I am passionate about building product that help people.
       </p>
       <br />
       <h2>Backend says:</h2>
