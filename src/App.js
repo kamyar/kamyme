@@ -23,7 +23,7 @@ function App() {
           I am a Software Engineer currently working @ <a href="https://www.deliveryhero.com/">Delivery Hero</a> in Berlin.
         </p>
         <p>
-          I am passionate about building product that help people. You can access my <a href="Kamyar_Ghasemlou_CV.pdf">CV</a> here.
+          I am passionate about building products that help people. You can access my <a href="Kamyar_Ghasemlou_CV.pdf">CV</a> here.
         </p>
         <p>
           Below you can find some of my social links. {/*or contact me via <email> my_name@current_website</email>.*/}
