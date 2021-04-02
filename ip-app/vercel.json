@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "redirects": [
+    { "source": "/CV", "destination": "/Kamyar_Ghasemlou_CV.pdf" }
+  ]
+}
