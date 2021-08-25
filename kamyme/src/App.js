@@ -20,7 +20,7 @@ function App() {
           Hi there, welcome to my homepage!
         </h2>
         <p>
-          I am a Software Engineer currently working @ <a href="https://www.deliveryhero.com/">Delivery Hero</a> in Berlin.
+          I am a Software Engineer currently working @ <a href="https://www.datadoghq.com/">DataDog</a> in Berlin.
         </p>
         <p>
           I am passionate about building products that help people. You can access my <a href="Kamyar_Ghasemlou_CV.pdf">CV</a> here.
